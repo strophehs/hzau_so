@@ -1,0 +1,53 @@
+* {
+	font-family: "微软雅黑";
+	margin: 8px;
+	font-size: 14px;
+}
+details {
+	font-size: 12px;
+	line-height: 16px;
+	margin-top: 20px;
+	border: 2px solid #ccc;
+	padding-left: 24px;
+	box-shadow: 5px 5px 10px #ccc;
+	border-radius: 10px;
+}
+details:hover {
+	cursor: pointer;
+}
+button {
+	border: none;
+	background: rgb(18, 184, 255);
+	color: black;
+	font-size: 18px;
+	padding: 4px 8px 4px 8px;
+	font-weight: bold;
+}
+button:hover {
+	border: none;
+	cursor: pointer;
+}
+input {
+	position: relative;
+	width: 60%;
+	height: 20px;
+  	border: none;
+  	border-bottom: 1px solid #e6e6e6;
+}
+h1 {
+	font-size: 26px;
+}
+h2 {
+	font-size: 22px;
+}
+h3 {
+	font-size: 18px;
+}
+.title {
+	font-size: 16px;
+	text-shadow: 0 0 5px #ccc;
+}
+.error {
+	color: red;
+	font-weight: bold;
+}

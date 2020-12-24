@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>回访母校信息查询</title>
+		<link href="style.css" rel="stylesheet">
+	</head>
+	<body>
+		<h1>华中农业大学2020年回访母校信息查询系统</h1>
+		<h2>请输入队长的身份证号进行查询：</h2>
+		<input type="text" placeholder="请输入身份证号" id="verifyId">
+		<button onclick="search()" id="submit">查询</button>
+		<br>
+		<hr>
+		<div id="result"></div>
+		<h3>注意事项：</h3>
+		<ol>
+			<li>请将团队负责人的身份证号输入系统进行查询，如果无法查询，请联系招生办公室成员进行查询；</li>
+			<li>一旦查询成功，将无法再次查询，请各位负责人注意，不要随意查询他人的信息；</li>
+			<li>所有信息应一律保密，不得传播给非本团队的人员；</li>
+			<li>若信息有误，请联系招生办公室成员进行修改；</li>
+			<li>请留心查询信息中红色的部分，该部分不符合格式，可能会有问题；</li>
+          	<li><strong>请重点核查身份证号、学号和姓名；</strong></li>
+			<li>本系统解释权归华中农业大学招生办公室所有。</li>
+		</ol>
+	</body>
+	<script src="search.js"></script>
+</html>
